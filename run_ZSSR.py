@@ -39,7 +39,7 @@ def main(conf_name, gpu):
                 print ('no kernel loaded')
                 break
 
-        print kernel_files
+        print (kernel_files)
 
         # This option uses all the gpu resources efficiently
         if gpu == 'all':
